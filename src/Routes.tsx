@@ -34,10 +34,10 @@ export default function Routes() {
           path: 'swap',
           element: <Swap />
         },
-        // {
-        //   path: 'bridge',
-        //   element: <Bridge />
-        // },
+        {
+          path: 'bridge',
+          element: <Bridge />
+        },
         {
           path: 'dashboard',
           element: isConnected ? <Dashboard /> : <Navigate to="/lending" replace />
